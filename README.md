@@ -18,16 +18,16 @@ The overall architecture and detailed module designs are illustrated below.
 
 ## Network Architecture
 
-![DifTransNet Architecture](./figures/framework.png)
+![DifTransNet Architecture](./figures/framework.jpg)
 
 ## Differential Cross Transformer Block (DCTB)
 
 DCTB performs multi-scale feature interaction through a shared key-value representation and dual-query attention mechanism. One branch emphasizes local target-sensitive variations, while the other captures background contextual information. The final representation is obtained through adaptive differential aggregation, enabling explicit target enhancement and background suppression.
 
-![DCTB](./figures/DCTB.png)
+![DCTB](./figures/DCTB.jpg)
 
 ## Directional Multi-Scale Fusion Module (DMSF)
 
 DMSF is designed to improve decoder feature reconstruction. By jointly modeling directional spatial dependencies and channel-wise importance, it effectively integrates shallow spatial details and deep semantic information, which is beneficial for recovering extremely small infrared targets.
 
-![DMSF](./figures/DMSF.png)
+![DMSF](./figures/DMSF.jpg)
