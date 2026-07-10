@@ -2,7 +2,7 @@
 
 🎉 Our paper **"DifTransNet: A Differential Cross-Scale Transformer Network for Infrared Small Target Detection"** has been accepted.
 
-This repository provides the official implementation of DifTransNet, a transformer-based framework designed for infrared small target detection. The proposed method focuses on enhancing target–background discrimination by introducing differential cross-scale interaction and adaptive feature fusion strategies.
+The model implementation of DifTransNet is publicly available in this repository. The training configurations and scripts are currently being organized and will be released in the future. DifTransNet is a transformer-based framework designed for infrared small target detection, which improves target–background discrimination through differential cross-scale interaction and adaptive feature fusion strategies.
 
 ## Overview
 
